@@ -345,8 +345,8 @@ fn socket_egress(
 ---
 
 ### 整体的运行流程：
-1.初始化设备，socket,interface
-2.socket绑定，监听，建立连接
-3.socket调用send函数将数据发送到buffer
-4.poll函数会处理发送和接收，其中接收是放入缓冲区
-5.socket调用recv接收
+1.初始化设备，socket,interface  
+2.socket绑定，监听，建立连接  
+3.socket调用send函数将数据发送到buffer  
+4.poll函数会处理发送和接收，其中接收是放入缓冲区  
+5.socket调用recv接收  
